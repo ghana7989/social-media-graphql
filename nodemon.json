@@ -1,0 +1,9 @@
+{
+	"verbose": true,
+	"log": "debug",
+	"port": "8080",
+	"watch": ["src/**/*.ts"],
+	"ignore": [".git", "node_modules/**/node_modules"],
+	"restartable": "r",
+	"exec": "ts-node src/index.ts"
+}
