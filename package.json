@@ -4,7 +4,8 @@
 	"description": "",
 	"main": "src/index.js",
 	"scripts": {
-		"dev": "nodemon --config nodemon.json "
+		"dev": "nodemon --config nodemon.json",
+		"studio": "npx prisma studio"
 	},
 	"repository": {
 		"type": "git",
@@ -21,8 +22,10 @@
 	},
 	"homepage": "https://github.com/ghana7989/social-media-graphql#readme",
 	"dependencies": {
+		"@prisma/client": "^3.9.2",
 		"apollo-server": "^3.6.3",
-		"graphql": "^16.3.0"
+		"graphql": "^16.3.0",
+		"prisma": "^3.9.2"
 	},
 	"devDependencies": {
 		"ts-node-dev": "^1.1.8",
