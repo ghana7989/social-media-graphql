@@ -5,5 +5,6 @@
 	"watch": ["src/**/*.ts"],
 	"ignore": [".git", "node_modules/**/node_modules"],
 	"restartable": "r",
-	"exec": "ts-node src/index.ts"
+	"exec": "ts-node-dev src/index.ts",
+	"out": "out.log"
 }
